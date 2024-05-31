@@ -10,7 +10,7 @@ import spec from "./src/modules/special endpoint/special.routes.js";
 import cors from "cors"
 
 const app = express();
-const port = process.env.port || 3000;
+const port = process.env.port ;
 
 app.use(cors())
 app.use(express.json());
