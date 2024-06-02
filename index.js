@@ -22,9 +22,7 @@ app.use("/special", spec);
 
 
 dbConnection()
-users;
-posts;
-comments;
+
 
 app.listen(port, () => {
   console.log(`server is runing on port ${port}`);
